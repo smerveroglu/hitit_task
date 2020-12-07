@@ -1,0 +1,47 @@
+.app {
+  display: flex;
+  justify-content: center;
+  box-sizing: inherit;
+  word-break: break-word;
+}
+.post {
+  margin: 0 64px;
+  min-width: 0;
+  max-width: 680px;
+  width: 100%;
+  display: block;
+  text-align: left;
+}
+h1 {
+  letter-spacing: -0.011em;
+  line-height: 56px;
+  margin-top: 0.6em;
+  font-size: 46px;
+  color: rgba(41, 41, 41, 1);
+  margin-bottom: -0.27em;
+  font-weight: 700;
+  font-style: normal;
+}
+h2 {
+  line-height: 28px;
+  margin-top: 0.92em;
+  font-size: 22px;
+  margin-bottom: -0.42em;
+  font-style: normal;
+  letter-spacing: 0;
+  color: rgba(117, 117, 117, 1);
+}
+p {
+  letter-spacing: -0.003em;
+  line-height: 32px;
+  font-size: 21px;
+  margin-bottom: -0.46em;
+  margin-top: 24px;
+  color: rgba(41, 41, 41, 1);
+  font-style: normal;
+  word-break: break-word;
+  font-weight: 400;
+}
+.button {
+  margin-top: 24px;
+}
